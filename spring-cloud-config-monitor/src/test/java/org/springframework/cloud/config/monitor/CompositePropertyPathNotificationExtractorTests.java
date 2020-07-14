@@ -76,5 +76,4 @@ public class CompositePropertyPathNotificationExtractorTests {
 		assertThat(extracted).isNotNull();
 		assertThat(extracted.getPaths()[0]).isEqualTo("foo");
 	}
-
 }
